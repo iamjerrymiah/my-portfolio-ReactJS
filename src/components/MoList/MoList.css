@@ -1,0 +1,42 @@
+.mo{
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.mo-texts{
+    width: 65%;
+}
+
+.mo-title{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.mo-desc{
+    margin: 20px 0px;
+}
+
+.mo-list{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 500px){
+    .mo{
+        padding: 10px;
+    }
+    .mo-texts{
+        width: 100px;
+    }
+    .mo-desc{
+        display: none;
+    }
+    .mo-title{
+        font-size: 30px;
+    }
+}

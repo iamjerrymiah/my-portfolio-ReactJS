@@ -1,0 +1,42 @@
+.ou{
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.ou-texts{
+    width: 65%;
+}
+
+.ou-title{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.ou-desc{
+    margin: 20px 0px;
+}
+
+.ou-list{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 500px){
+    .ou{
+        padding: 10px;
+    }
+    .ou-texts{
+        width: 100px;
+    }
+    .ou-desc{
+        display: none;
+    }
+    .ou-title{
+        font-size: 30px;
+    }
+}

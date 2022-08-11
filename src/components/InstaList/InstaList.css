@@ -1,0 +1,42 @@
+.il{
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.il-texts{
+    width: 65%;
+}
+
+.il-title{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.il-desc{
+    margin: 20px 0px;
+}
+
+.il-list{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 500px){
+    .il{
+        padding: 10px;
+    }
+    .il-texts{
+        width: 100px;
+    }
+    .il-desc{
+        display: none;
+    }
+    .il-title{
+        font-size: 30px;
+    }
+}
